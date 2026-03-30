@@ -1,0 +1,71 @@
+
+    body{
+    
+        height: 100vh;
+        margin:0;
+        padding:0;
+        width:100%;
+        background-image: url("background.jpeg");
+        background-size: cover;
+        background-position: center;
+
+}
+/*h2{
+    padding:50px 0px 0px 20px;
+    
+}
+#box1{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: bolder;
+    font-size: 25px;}*/
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;   
+    justify-content: flex-start;  
+    align-items: center;    
+    font-size: 2em;
+}
+.section-one p{
+    color:white;
+    font-weight: lighter;
+    line-height:1.2en;
+    padding:20px
+}
+.section-two img{
+    width:70%;
+    opacity: 0.7;
+    height:70%;
+}
+    
+section-three p{
+    color:black;
+    font-weight: lighter;
+    line-height:1
+}
+.section-three{
+    background-image: url("climate\ impact\ on\ human.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+}
+section-four p{
+    color:white;
+    font-weight: lighter;
+    line-height: 1.2;
+    padding: 30px;
+}
+
+.Section-four{
+    background-image: url("industrial.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:aliceblue;
+    padding:18px;
+    
+}
