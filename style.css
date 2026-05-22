@@ -10,15 +10,7 @@
         background-position: center;
 
 }
-/*h2{
-    padding:50px 0px 0px 20px;
-    
-}
-#box1{
-    padding-left: 15px;
-    padding-top: 15px;
-    font-weight: bolder;
-    font-size: 25px;}*/
+
 section {
     height: 100vh;
     scroll-snap-align: start;
@@ -26,13 +18,14 @@ section {
     flex-direction: column;   
     justify-content: flex-start;  
     align-items: center;    
-    font-size: 2em;
+    font-size: 1em;
 }
 .section-one p{
     color:white;
     font-weight: lighter;
     line-height:1.2en;
     padding:20px
+    
 }
 .section-two img{
     width:70%;
@@ -66,6 +59,86 @@ section-four p{
     background-position: center;
     background-repeat: no-repeat;
     color:aliceblue;
-    padding:18px;
+    padding:18px;}
+
+.section-two{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+
+    padding:40px;
+}
+
+/* LEFT TEXT */
+.text-area{
+    width:45%;
+    color:white;
+    font-size:22px;
+    line-height:1.7;
+}
+
+/* RIGHT GRAPH */
+.graph-box{
+
+    width:300px;
+
+    position:sticky;
+    top:20px;
+
+    background:rgba(255,255,255,0.05);
+
+    padding:20px;
+
+    border-radius:20px;
+
+    backdrop-filter:blur(10px);
+
+    border:1px solid orange;
+
+    box-shadow:0 0 20px rgba(255,120,0,0.4);
+}
+
+
+/* GRAPH SIZE */
+#temChart{
+    width:100% !important;
+    height:100px !important;
+}
+
+
+
+
+
+canvas{
+
+    width: 85% !important;
+    max-width: 500px;
+
+    padding: 0;
+
+    border-radius: 20px;
+
+    background:
+    rgb(136, 80, 12);
+
+    border:
+    1px solid rgba(255,165,0,0.25);
+
+    box-shadow:
+    0 0 25px rgba(255,140,0,0.25);
+
+    backdrop-filter: blur(3px)
+
+
+
     
+
+
+
+
+}
+#temChart{
+    width: 80% !important;;
+    max-width: 900px;
+    height: 500px !important;
 }

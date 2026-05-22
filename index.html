@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        
+        
+               
         body {
             margin: 0;
             scroll-snap-type: y mandatory;
@@ -15,15 +18,18 @@
             height: 100vh;
             scroll-snap-align: start;
             display: flex;
-            align-items: flex;
+            flex-direction: column;
+            justify-content: flex-start;
             align-items: center;
-            font-size: 2em;
+            font-size: 1.5em;
         }
     </style>
 </head>
 <body>
+    <!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <section class="section-one"> 
-        <h4 style="color:rgb(241, 207, 10)">
+        <h4 style="color:rgb(245, 229, 13)">
             🔥 GLOBAL TEMPERATURE RELATION (INFORMATION & DATA)
         </h4>
         <p>Detailed data on global average temperature rise in clanorom data of tromeenonetise, showing 10 year trend.
@@ -31,7 +37,6 @@
 Analyzing temperature trends across different decades, and temperature goss in trods, analyzing global average averages saamn on global temperature.
 
 Comparing present data with historic averages, in analyzing averages: 10 year trend.
-
 Analyzing temperature trends across different decades in analyzing 10 year trend.
 
 Compoing temperature rise concinate trendings on greennoreers, and/consumbers.
@@ -42,18 +47,21 @@ Temp Rise</p>
     </section> 
        
     <section class="section-two">
-        <h4 style="color:rgb(241, 207, 10)">
+      
+      <h4 style="color:rgb(241, 207, 10)">
             GLOBAL TEMPERATURE GRAPH PLOTING
-        </h4>
-        <img src="graph new.jpeg" alt="graph ploting">
+      </h4>
+      
+           <canvas id="temChart"></canvas>
+
+
     </section>
     <section class="section-three">
         <H4 STYLE="COLOR:RGB(241, 207, 10)">
             THE PSYCHOLOGICAL IMPACT OF CLIMATE CHANGE ON HUMANITY   
         </H4>
         <p>Certainly! 
-
-Not only is the climate changing due to climate change, but it is also affecting our mental health. Rising temperatures, natural disasters, and an uncertain future are leading to stress, anxiety, and changes in social behavior. If we do not address this in time, it may deeply impact the mental and social fabric of human communities in the future. It is crucial for us to be aware, to focus on mental well-being, and to envision a supportive future.</p>
+           Not only is the climate changing due to climate change, but it is also affecting our mental health. Rising temperatures, natural disasters, and an uncertain future are leading to stress, anxiety, and changes in social behavior. If we do not address this in time, it may deeply impact the mental and social fabric of human communities in the future. It is crucial for us to be aware, to focus on mental well-being, and to envision a supportive future.</p>
     </section>
     
     <section class="section-four">
@@ -65,10 +73,8 @@ Not only is the climate changing due to climate change, but it is also affecting
     <section class="section-five">
         <h4 style="color:rgb(241, 207, 10)">
             SOLOTION TO COUNTER GLOBAL TEMPERATURE RISE
-
         </h4>
-
     </section>
-
+<script src="project.js"></script>              
 </body>
 </html>
